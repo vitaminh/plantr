@@ -1,4 +1,8 @@
-const { db, Plot, Vegetable, Gardener } = require('./models');
+const {
+  vegetable: Vegetable,
+  gardener: Gardener,
+  plot: Plot,
+} = db.models;
 const sequelize = require('sequelize');
 
 const vegetableData = [
